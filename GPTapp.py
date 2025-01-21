@@ -10,8 +10,8 @@ os.environ["OPENAI_API_KEY"] = "XXXX" #適切なAPIキーを記述する
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # Input
-input_program = st.text_area('最初のメッセージ')
-input_error = st.text_area('次のメッセージ')
+input_program = st.text_area('最初のメッセージです')
+input_error = st.text_area('次のメッセージです')
 msgFinal=''
 
 # Process
